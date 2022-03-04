@@ -1,5 +1,51 @@
 # Changelog
 
+<a name="2.3.0"></a>
+## 2.3.0 (2022-03-04)
+
+### Added
+
+- ✨ : update registry details when module is saved [[57665a4](https://github.com/gaia-app/gaia/commit/57665a4742d09710818dbe30dde87a48c99c68c7)]
+- ✨ : compute registry details for Gitlab urls [[5535aa0](https://github.com/gaia-app/gaia/commit/5535aa0447de9afa08d145537111f5d24282558a)]
+- ✨ : compute registry details for Github ssh urls ([e96250a](https://github.com/gaia-app/gaia/commit/e96250ad3b8b2f76d887dee77d2c5615ac921f8b))
+- ✨ : compute registry details for Github https urls ([158bf7a](https://github.com/gaia-app/gaia/commit/158bf7ae95db85838f483d41cadca7278754db0b))
+
+### Changed
+
+- 🔧 : update default mongodb URL to use 27017 port [[46a3376](https://github.com/gaia-app/gaia/commit/46a33765f1f50bff160b333ac67437dd3066b0db)]
+- ♻️ : remove redundant semicolons [[da4c98e](https://github.com/gaia-app/gaia/commit/da4c98e2e90a44d8084117566ed5ad11add8a51e)]
+- ♻️ : remove redundant qualifiers [[be3273b](https://github.com/gaia-app/gaia/commit/be3273bf6f40b83e352005b33e314832f5e40139)]
+- 🔥 : remove redundent modifiers ([8649046](https://github.com/gaia-app/gaia/commit/86490460f744eee521a05eacd071bfd9db523169))
+- ♻️ : remove unnecessary non-null assertion [[0aeb6eb](https://github.com/gaia-app/gaia/commit/0aeb6eb896944f0aa8007ba0b49b295c7456bd24)]
+- ♻️ : replace field injection with constructor [[56de233](https://github.com/gaia-app/gaia/commit/56de2339f208ee4e8b3f44b9dca57646afc8d497)]
+- ♻️ : replace null checks with ifPresent() [[446cdd9](https://github.com/gaia-app/gaia/commit/446cdd978d81a560580e8c5cd92babfa766b11e3)]
+- ♻️ : replace addAll with parametrized constructor call [[7352877](https://github.com/gaia-app/gaia/commit/73528770688d6b537aa20f59c010f3349d8ad7a7)]
+- ♻️ : replace unchecked assignment [[a5ff22b](https://github.com/gaia-app/gaia/commit/a5ff22b53eaf76790141098dc92a9ef0134006d7)]
+- 🎨 : remove unnecessary semicolon [[7ae64ea](https://github.com/gaia-app/gaia/commit/7ae64ea7fdfd79a7298038905bf2f9a7cd76e6e5)]
+- ♻️ : stop using deprecated constructor [[65e4b36](https://github.com/gaia-app/gaia/commit/65e4b36d4b3068f10cade84d15ecb83dd47f9a05)]
+- ♻️ : use redirectUri instead of redirectUriTemplate [[492778b](https://github.com/gaia-app/gaia/commit/492778be3ea9cd383bb9a05d237d64a2e033d3a1)]
+- 🚚 : split configuration of oauth providers [[bcee58c](https://github.com/gaia-app/gaia/commit/bcee58c44a81d1eacdcdda2f632d02d9dadc0ddc)]
+
+### Removed
+
+- 🔥 : remove unused imports [[1393d7c](https://github.com/gaia-app/gaia/commit/1393d7c106c690f69620e777327f336d90b02448)]
+- 🔥 : remove redundant throws clause [[164fdcd](https://github.com/gaia-app/gaia/commit/164fdcde3e49bad4864bac5c85e4cde010b661a7)]
+- 🔥 : remove unnecessary imports [[a230bdd](https://github.com/gaia-app/gaia/commit/a230bdd48438d4a72320c241102deeb9c65f423b)]
+- 🔥 : remove unused dockerDaemon settings [[929914c](https://github.com/gaia-app/gaia/commit/929914cf8c084d705e8e8c56922283d2dd6bf19e)]
+
+### Fixed
+
+- 🐛 : group parts of the regex together to make the intended operator precedence explicit [[1a0d504](https://github.com/gaia-app/gaia/commit/1a0d5045cda743b5e3d24fe260ed89428bc5fc6c)]
+
+### Security
+
+- 🔒 : auto create admin user on startup [[f4ba7e9](https://github.com/gaia-app/gaia/commit/f4ba7e9ad4a2ec9ec36fdda206161d681b8653a4)]
+
+### Miscellaneous
+
+- 📝 : add documentation links [[6dcb23a](https://github.com/gaia-app/gaia/commit/6dcb23a998eb2e449002757ffe2fcc942702f012)]
+
+
 <a name="2.2.0"></a>
 ## 2.2.0 (2021-08-20)
 
